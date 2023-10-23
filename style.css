@@ -1,0 +1,177 @@
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Tektur:wght@500&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.div{
+	padding: 20px 25px;
+	background: black;
+}
+
+.div1{
+	text-align: center;
+	padding: 20px;
+/*	background: darkkhaki;*/
+}
+.h1{
+	font-family: tektur;
+	font-size: 3em;
+	color: orange;
+	text-align: center;
+}
+
+.table {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: tektur;
+  border: 2px solid orange;
+}
+
+.table-length{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: tektur;
+   border: 2px solid orange;
+}
+
+.generate {
+	padding: 10px;
+padding: 13px 20px;
+	background: #000000;
+	font-family: tektur;
+	color: white;
+	border: 0px;
+}
+
+.table-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.h4{
+	background: orange;
+	color: black;
+}
+body{
+/*	background:rgba(0, 0, 0, 0.5) url(math.jpg);*/
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+
+/*	background: linear-gradient(to left, orange, black);*/
+}
+
+.innerHTML{
+	background: black;
+/*	padding: 30px;*/
+	box-sizing: border-box;
+	width: calc(90% / 6);
+	margin: 20px calc(10% / 12);
+	text-align: center;
+	font-size: 18px;
+	line-height: 2;
+	border-radius: 10px;
+	border: 2px solid orange;
+	font-family: tektur;
+	color: white;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.div{
+	padding: 20px 25px;
+	background: black;
+}
+
+.div1{
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+/*	background: darkkhaki;*/
+}
+.h1{
+	font-family: tektur;
+	font-size: 3em;
+	color: orange;
+	text-align: center;
+}
+
+.table {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: tektur;
+  border: 2px solid orange;
+}
+
+.table-length{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: tektur;
+   border: 2px solid orange;
+}
+
+.generate {
+	padding: 10px;
+padding: 13px 20px;
+	background: #000000;
+	font-family: tektur;
+	color: white;
+	border: 0px;
+}
+
+.table-container {
+	display: flex;
+	flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+
+.h4{
+	background: orange;
+	color: black;
+}
+body{
+/*	background:rgba(0, 0, 0, 0.5) url(math.jpg);*/
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+
+/*	background: linear-gradient(to left, orange, black);*/
+}
+
+.innerHTML{
+	background: black;
+/*	padding: 30px;*/
+	box-sizing: border-box;
+	width: calc(90% / 2);
+/*	margin: 20px calc(10% / 12);*/
+	text-align: center;
+	font-size: 18px;
+	line-height: 2;
+	border-radius: 10px;
+	border: 2px solid orange;
+	font-family: tektur;
+	color: white;
+}
